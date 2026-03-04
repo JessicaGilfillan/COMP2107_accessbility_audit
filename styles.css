@@ -1,0 +1,38 @@
+body {
+    background-color: #fff;
+    color: #f1f1f1; /* Poor contrast between background and text */
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 2em;
+    color: #f1f1f1; /* Poor contrast with background */
+}
+h2 {
+    font-size: 1.5em;
+    color: #f1f1f1; /* Poor contrast with background */
+}
+p {
+    font-size: 18px;
+}
+.button {
+    background-color: #ccc; /* Low contrast button */
+    color: #999; /* Low contrast text on button */
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+a {
+    color: #f1f1f1; /* Link text with poor contrast */
+    text-decoration: none; /* Links are not underlined, making them harder to identify */
+}
+a:focus {
+    outline: none; /* No visible focus for links */
+}
+.container {
+    width: 100%;
+    text-align: center;
+}
+.form-container {
+    background-color: #ccc; /* Low contrast between form background and text */
+    padding: 15px;
+}
